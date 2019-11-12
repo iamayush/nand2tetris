@@ -1,0 +1,7 @@
+CHIP Tester {
+	IN in[16],zr;
+	OUT out[16];
+	
+	PARTS:
+	And16(a=in,b[0..15]=zr,out=out);
+}
